@@ -39,4 +39,4 @@ jspm_packages
 # vscode local history
 .history
 
-.package-lock.json
+package-lock.json
