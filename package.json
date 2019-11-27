@@ -1,0 +1,35 @@
+{
+  "name": "think-view-smarty",
+  "version": "0.0.1",
+  "description": "compile view templates with Smarty for ThinkJS 3.x",
+  "author": {
+    "name": "web3d",
+    "email": "web3d@live.com"
+  },
+  "scripts": {
+    "test": "eslint index.js && nyc ava test/",
+    "coverage": "nyc report --reporter=html",
+    "pubtonpm": "npm version patch && npm publish",
+    "lint": "eslint index.js",
+    "lint-fix": "eslint --fix index.js"
+  },
+  "dependencies": {
+    "think-helper": "^1.0.0",
+    "smarty4js": "^0.1.8"
+  },
+  "devDependencies": {
+    "ava": "^0.18.0",
+    "babel-core": "^6.22.1",
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.2.0",
+    "eslint-config-think": "^1.0.1",
+    "nyc": "^7.0.0",
+    "mock-require": "^2.0.1"
+  },
+  "contributors": [
+    {
+      "name": "web3d",
+      "email": "web3d@live.com"
+    }
+  ]
+}
